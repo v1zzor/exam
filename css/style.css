@@ -1,0 +1,352 @@
+*{
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+body{
+    background: #FFFFFF;
+}
+
+/* header */
+
+.header{
+    padding: 50px 0 ;
+}
+
+.navbar-brand{
+    padding-right: 100px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar-brand img{
+    padding-right: 15px;
+}
+
+.navbar li{
+    padding: 0px 10px;
+}
+
+.sinIn{
+    width: 150px;
+    height: 45px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.sinUp{
+    width: 150px;
+    height: 45px;
+    background: none;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    color: #F53855;
+}
+
+.sinUpUse{
+    width: 150px;
+    height: 45px;
+    background:  #F53838;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+
+.bthValid{
+    width: 250px;
+    height: 60px;
+    background:  #F53838;
+    border: 1px solid #F53855;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.navbar-nav{
+    text-align: center;
+    padding-right: 50px;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.header-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    z-index: 2;
+    animation-duration: 1s;
+    animation-name: headerAnim;
+    height: 100px;
+    padding-top: 30px;
+}
+
+@keyframes headerAnim{
+    0%{opacity: 0%; top: -25px;}
+    100%{opacity: 100%; top: 0;}
+}
+
+
+
+/* firstBlock */
+
+.firstBlock p{
+    padding-bottom: 50px;
+}
+
+.getStr{
+    width: 250px;
+    height: 60px;
+    background: #F53838;
+    border-radius: 10px;
+    border-style: none;
+    color:#FFFFFF;
+    
+}
+
+/* secondBlock */
+.secBlockWrapper{
+    width: 1140px;
+}
+
+.secBlock{
+    width: 1140px;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.anim{
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 100;
+    animation-name: hover;
+}
+
+@keyframes hover{
+    0%{top:0;}
+    50%{top: -10px;}
+    100%{top:0;}
+}
+
+.fourthBlockWrapper{
+   
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* fifthBlock */
+
+.fifthBlockWrapper{
+    background: rgba(206,206,206, 0.1);
+    
+}
+
+.fifthBlock{
+    
+    padding-top: 80px;
+}
+
+.nameBlock{
+
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.nameBlock h2{
+    padding-bottom: 20px;
+}
+
+.freePlan{
+    width: 330px;
+    height: 760px;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.freePlan img{
+
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.freePlan p{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.freePlan li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 64px;
+    text-align: start;
+}
+
+.freePlan .display-6{
+    padding-top: 130px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.standartPlan{
+    width: 330px;
+    height: 760px;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0 50px 0 50px;
+    text-align: center;
+}
+
+.standartPlan img{
+
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.standartPlan p{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.standartPlan li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 64px;
+    text-align: start;
+}
+
+.standartPlan .display-6{
+    padding-top: 90px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.premiumPlan{
+    width: 330px;
+    height: 760px;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.premiumPlan img{
+
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.premiumPlan p{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.premiumPlan li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 64px;
+    text-align: start;
+}
+
+.premiumPlan .display-6{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.storeBlock{
+    padding-bottom: 150px;
+}
+
+.earthNameBlock{
+    text-align: center;
+}
+
+.earthNameBlock h2{
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.mapImg{
+    padding-top: 155px;
+    padding-bottom: 20px;
+}
+
+.brands img{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.feedback{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.feedback h2{
+    padding-bottom: 20px;
+}
+
+.validationkWrapper{
+    width: 1140px;
+}
+
+.validationBlock{
+    width: 1140px;
+    height: 405px;
+    margin-top: 100px;
+    
+}
+
+.validationBlock h2{
+    padding:54px 0 31px 112px ;
+}
+
+.validationBlock .forms{
+    padding-left:112px ;
+}
+
+.validationBlock input{
+    width: 288px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.validationBlock button{
+    margin-top: 40px;
+}
+
+.footer{
+    padding-top: 50px;
+}
+
+.bi{
+    color: #F53838;
+    background-color: #FFFFFF;
+    font-size: 26px;
+    padding: 7px 10px;
+    border-radius: 100%;
+    margin: 0 5px 0 5px;
+}
+
+.copy{
+    color: #AFB5C0;
+    
+}
